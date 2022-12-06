@@ -132,6 +132,45 @@
             }
         ]
     });
+    // product slider
+    $('.top_ranking_vendor_slide_wrap').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        prevArrow: '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1366,
+                settings: {
+                    arrows: false,
+                }
+            },{
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                }
+            }
+        ]
+    });
 
     // team slider
     $('.team_slider').slick({

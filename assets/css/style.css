@@ -1267,6 +1267,142 @@ h2.section_title_3 {
     padding: 50px 0;
     overflow-x: hidden;
 }
+/* Banner area */
+#banner{
+    margin-top: 20px;
+}
+#banner .ad-banner{
+    margin-top: 20px;
+}
+#banner .slick-prev, #banner .slick-next{
+    display: none !important;
+}
+#banner .bn-rg-img-el{
+    height: 250px;
+}
+#banner .bn-rg-img-el img{
+    height: 100%;
+}
+#banner .ad-banner {
+    height: 90px;
+}
+#banner .ad-banner img{
+    height: 100%;
+}
+#banner .main_banner_area {
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 410px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+/* Top Ranking Vendor Area */
+.top_ranking_vendor_box{
+    padding: 20px;
+    border: 1px solid gray;
+}
+.top_ranking_vendor_box h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.top_ranking_vendor_box .view_more a{
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #878787 !important;
+}
+.top_ranking_vendor_slide_item{
+    background-color: #F5F7F7;
+}
+
+.top_ranking_vendor_slide_wrap button.slick-arrow {
+    left: -38px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px #00000024;
+    box-shadow: 0 0 10px #00000024;
+}
+.top_ranking_vendor_slide_wrap button.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    color: #2B2D42;
+    top: 50%;
+    left: 15px;
+    border: none;
+    background: transparent;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.top_ranking_vendor_slide_wrap button.slick-arrow.slick-next {
+    right: -40px;
+}
+.top_ranking_vendor_slide_wrap button.slick-next.slick-arrow {
+    left: auto;
+    right: -22px;
+}
+.top_ranking_vendor_slide_wrap button.slick-arrow {
+    left: -38px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px #00000024;
+    box-shadow: 0 0 10px #00000024;
+}
+.top_ranking_vendor_slide_wrap button.slick-arrow {
+    position: absolute;
+    z-index: 1;
+    font-size: 25px;
+    color: #2B2D42;
+    top: 50%;
+    left: -22px;
+    border: none;
+    background: transparent;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+
+
+
+
 
 /* banner ad */
 .offer_banner_area img {
