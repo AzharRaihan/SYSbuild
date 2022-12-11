@@ -109,6 +109,14 @@ px      68    160    252    344    436    528    620    712    */
         right: 6px;
         top: -4px;
     }
+    #office_supplies .office_supplies_sidebar ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .office_supplies_sidebar ul li {
+        border-left: 4px solid transparent;
+        padding: 10px 10px;
+    }
     #office_supplies .office_supplies_wrap {
         grid-template-columns: 100%;
     }
@@ -137,6 +145,14 @@ px      68    160    252    344    436    528    620    712    */
     .header_icon a.icon_wrp .pops {
         right: 6px;
         top: -4px;
+    }
+    #office_supplies .office_supplies_sidebar ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .office_supplies_sidebar ul li {
+        border-left: 4px solid transparent;
+        padding: 10px 10px;
     }
     #features_brands .brands-header {
         top: 0px;
@@ -167,6 +183,14 @@ px      68    160    252    344    436    528    620    712    */
     .header_icon a.icon_wrp .pops {
         right: 6px;
         top: -4px;
+    }
+    #office_supplies .office_supplies_sidebar ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .office_supplies_sidebar ul li {
+        border-left: 4px solid transparent;
+        padding: 10px 10px;
     }
     #features_brands .brands-header {
         top: 0px;
