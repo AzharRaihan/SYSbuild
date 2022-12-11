@@ -129,6 +129,47 @@
         ]
     });
 
+    // categoryHeaderSlide slider
+    $('.categoryHeaderSlide').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        prevArrow: '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+        speed: 300,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1366,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 7,
+                    arrows: true,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
 
     // search suggest
     $('#show_suggest').on('focus',function(){

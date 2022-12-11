@@ -82,7 +82,7 @@ px      68    160    252    344    436    528    620    712    */
         right: 6px;
         top: -4px;
     }
-    #office_supplies .office_supplies_wrap {
+    .office_supplies_wrap {
         grid-template-columns: 30% 70%;
     }
     
@@ -109,7 +109,7 @@ px      68    160    252    344    436    528    620    712    */
         right: 6px;
         top: -4px;
     }
-    #office_supplies .office_supplies_sidebar ul {
+    .office_supplies_sidebar ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
@@ -117,13 +117,13 @@ px      68    160    252    344    436    528    620    712    */
         border-left: 4px solid transparent;
         padding: 10px 10px;
     }
-    #office_supplies .office_supplies_wrap {
+    .office_supplies_wrap {
         grid-template-columns: 100%;
     }
-    #office_supplies .office-supplies-card {
+    .office-supplies-card {
         height: auto;
     }
-    #features_brands .brands-header img {
+    .brands-header img {
         margin-right: 0px;
     }
     .footer_wrap { 
@@ -146,7 +146,7 @@ px      68    160    252    344    436    528    620    712    */
         right: 6px;
         top: -4px;
     }
-    #office_supplies .office_supplies_sidebar ul {
+    .office_supplies_sidebar ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
     }
@@ -154,13 +154,13 @@ px      68    160    252    344    436    528    620    712    */
         border-left: 4px solid transparent;
         padding: 10px 10px;
     }
-    #features_brands .brands-header {
+    .brands-header {
         top: 0px;
     }
-    #office_supplies .office_supplies_wrap {
+    .office_supplies_wrap {
         grid-template-columns: 100%;
     }
-    #office_supplies .office-supplies-card {
+    .office-supplies-card {
         height: auto;
     }
     #features_brands .brands-header img {
@@ -184,7 +184,7 @@ px      68    160    252    344    436    528    620    712    */
         right: 6px;
         top: -4px;
     }
-    #office_supplies .office_supplies_sidebar ul {
+    .office_supplies_sidebar ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
     }
@@ -195,19 +195,19 @@ px      68    160    252    344    436    528    620    712    */
     #features_brands .brands-header {
         top: 0px;
     }
-    #office_supplies .office_supplies_wrap {
+    .office_supplies_wrap {
         grid-template-columns: 100%;
     }
-    #office_supplies .office-supplies-card {
+    .office-supplies-card {
         height: auto;
     }
     #features_brands .brands-header img {
         margin-right: 0px;
     }
-    #office_supplies .office_supplies_inner {
+    .office_supplies_inner {
         grid-template-columns: 100%;
     }
-    #office_supplies .office_supplies_body .arrow {
+    .office_supplies_body .arrow {
         margin-left: 0px;
     }
     .footer_wrap { 
