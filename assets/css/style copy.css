@@ -88,12 +88,6 @@ ul {
 .bg-color {
     background-color: #3572EE !important;
 }
-.base-bg-color {
-    background-color: #3572EE !important;
-}
-.bg-colorE19600 {
-    background-color: #E19600 !important;
-}
 .top_2 {
     top: 2px !important;
 }
@@ -2084,6 +2078,41 @@ form.footernews_form {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* custom checkbox */
 .custom_check label {
     padding-left: 30px;
@@ -2319,66 +2348,4 @@ button#mobile_filter_btn {
 .breadcrumbs a.active {
     color: #2B2D42;
     margin-right: 0;
-}
-
-
-
-
-/* Vendor Css */
-
-
-/* Added Date 1/1/2023 */
-#vendor_banner .main_banner_area {
-    background-position: center bottom;
-    background-size: cover;
-    min-height: 200px;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-#vendor_banner .slick-prev, #vendor_banner .slick-next{
-    display: none !important;
-}
-.popular-vendor-heading {
-    border-radius: 4px;
-}
-.popular-vendor-heading h4{
-    margin: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 10px 5px;
-    text-transform: uppercase;
-    color: white;
-}
-.vendor-card h5{
-    font-size: 11px;
-    text-align: center;
-    padding: 5px 0px;
-    text-transform: uppercase;
-}
-.vendor-img-top{
-    border: 1px solid #C1C1C1;
-    border-radius: 2px;
-    padding: 5px;
-}
-.vendor-img-top img{
-    width: 100%;
-    max-height: 80px;
-}
-.vendor-product-ad{
-    border: 1px solid #CCCCCC;
-}
-.vendor-product-ad img{
-    width: 100%;
-    height: 240px;
-
-}
-.vendor-product-ad h4{
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
-    padding: 20px 0px;
 }

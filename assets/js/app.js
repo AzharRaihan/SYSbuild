@@ -310,6 +310,74 @@
         }, 1000);
     }
 
+
+
+
+
+
+
+
+
+
+    // Added Date 1/1/2023
+    // Vendor slider
+    $('.vendor_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        prevArrow: '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+        responsive: [{
+            breakpoint: 1300,
+            settings: {
+                arrows: false,
+            }
+        }]
+    });
+
+    // Common Ad slide
+    $('.common_ad_slide').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+        responsive: [{
+            breakpoint: 1300,
+            settings: {
+                arrows: false,
+            }
+        }]
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     startTimer(2000)
 
     // activate bootstrap tooltip
