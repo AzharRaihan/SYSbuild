@@ -354,6 +354,35 @@
         }]
     });
 
+    // single product view slider
+    $('.product_view_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.product_viewslid_nav',
+        infinite: false
+    });
+
+     // single product view slider nav
+     $('.product_viewslid_nav').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        prevArrow: '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+        asNavFor: '.product_view_slider',
+        focusOnSelect: true,
+        centerMode: false,
+        centerPadding: '0px',
+        infinite: false,
+        responsive: [{
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 3,
+            }
+        }]
+    });
+
 
 
 
