@@ -384,6 +384,15 @@
     });
 
 
+    // switch product bottom section
+    $('.pbt_single_btn').on('click', function () {
+        let getCls = $(this).attr('data-target')
+        $('.pb_tab_content, .pbt_single_btn').removeClass('active')
+        $(getCls).addClass('active')
+        $(this).addClass('active')
+    })
+
+
 
 
 
