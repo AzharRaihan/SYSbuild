@@ -3226,5 +3226,79 @@ button#mobile_filter_btn {
     object-fit: cover;
 
 }
-  
- 
+
+/* Service Holder */
+.service-holder-wrap{
+    height: 150px;
+    background-color: #3572EE;
+}
+.service-holder-img{
+    width: 200px;
+    height: 200px;
+
+}
+.shop_by_category .service_holder_inner .cat_titile{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.shop_by_category .service_holder_inner .s-b-c-wrap{
+    position: relative;
+    top: 10px;
+}
+.service_holder_wrap .tab-pane p{
+    font-size: 12px;
+}
+#office_supplies .service_holder_inner .nav-tabs .nav-item .nav-link {
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    margin-right: 1.5rem;
+    color: #878787;
+    font-size: 13px;
+}
+#office_supplies .nav-tabs .nav-link {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: white !important;
+}
+.office-supplies-1 .service_holder_inner .nav-tabs .nav-item .active {
+    border-bottom: 2px solid #28CFBE;
+}
+.text-color {
+    color: #3572EE !important;
+}
+.font-20{
+    font-size: 20px;
+}
+.people_skill img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.add-section img{
+    width: 100%;
+    max-height: 350px;
+}
+.service-holder-outer{
+    margin-top: -80px;
+}
+
+.service-holder-outer .download-profile{
+    text-align: right;
+    margin-top: 100px;
+}
+
+.service-holder-outer .download-profile button{
+    border: 1px solid #3572EE;
+    background: #3572EE;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 25px !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: .5s;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+}

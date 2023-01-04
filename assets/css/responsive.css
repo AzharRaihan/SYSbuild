@@ -129,6 +129,11 @@ px      68    160    252    344    436    528    620    712    */
     .footer_wrap { 
         grid-template-columns: repeat(2, 1fr); 
     }
+
+    .service-holder-outer .download-profile {
+        text-align: left;
+        margin-top: 20px;
+    }
       
 
 }
@@ -171,6 +176,11 @@ px      68    160    252    344    436    528    620    712    */
     }
     
 
+    .service-holder-outer .download-profile {
+        text-align: left;
+        margin-top: 20px;
+    }
+
 }
   /*  Mobile Small Device: 300px.
     Gutters: 24px.
@@ -212,6 +222,12 @@ px      68    160    252    344    436    528    620    712    */
     }
     .footer_wrap { 
         grid-template-columns: repeat(1, 1fr); 
+    }
+
+
+    .service-holder-outer .download-profile {
+        text-align: left;
+        margin-top: 20px;
     }
     
 }
