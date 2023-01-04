@@ -393,6 +393,24 @@
     })
 
 
+    // Testimonial Slider
+    $('.testimonial-wrapper').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+        responsive: [{
+            breakpoint: 1300,
+            settings: {
+                arrows: false,
+            }
+        }]
+    });
+
 
 
 
