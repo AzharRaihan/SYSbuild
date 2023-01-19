@@ -125,6 +125,9 @@ ul {
 .p-16{
     padding: 16px;
 }
+.font-13{
+    font-size: 13px;
+}
 
 .default_link {
     color: #2B2D42;
